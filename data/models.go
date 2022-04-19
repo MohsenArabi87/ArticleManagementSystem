@@ -15,7 +15,7 @@ type Article struct {
 	Title     string    `json:"title" validate:"required" `
 	Content   string    `json:"content" `
 	Tags      []string  `json:"tags" `
-	Author    string    `json:"Author"`
+	Author    string    `json:"author"`
 	CreatedAt time.Time `json:"createdAt"`
 	UpdatedAt time.Time `json:"updatedAt"`
 }
